@@ -3,6 +3,7 @@ import { arefRuqaa, cinzel, faunaOne } from "./ui/fonts";
 import '@/app/ui/styles/home.css'
 import scrollDown from '@/app/images/scrollDown.png'
 import formatedIcons from "./ui/icons";
+import About from "./About";
 
 
 export default function Home() {
@@ -21,7 +22,7 @@ export default function Home() {
         {formatedIcons}
       </div>
 
-      <img src={scrollDown.src} alt="scrollDownArrow" id="scrollDown"/>
+        <About/>
     </Container>
   )
 }
