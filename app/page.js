@@ -1,7 +1,7 @@
 import { Container, Typography } from "@mui/material";
 import { arefRuqaa, cinzel, faunaOne } from "./ui/fonts";
 import '@/app/ui/styles/home.css'
-import iconArray from "./ui/icons";
+import scrollDown from '@/app/images/scrollDown.png'
 import formatedIcons from "./ui/icons";
 
 
@@ -20,6 +20,8 @@ export default function Home() {
         <Typography variant="h6" className={faunaOne.className}><strong>Tech Stack:</strong></Typography>
         {formatedIcons}
       </div>
+
+      <img src={scrollDown.src} alt="scrollDownArrow" id="scrollDown"/>
     </Container>
   )
 }

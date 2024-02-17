@@ -22,3 +22,16 @@
     margin-left: 3%;
     display: inline;
 }
+.techIcon:hover{
+    border-radius: 10px;
+    scale: 1.15;
+    box-shadow: -8px 8px lightblue;
+}
+
+#scrollDown{
+    height: 9vh;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50vh;
+}
