@@ -1,0 +1,24 @@
+#homeMainTxt{
+    position: relative;
+    top: 20vh;
+}
+#homeSubTxt{
+    width: 45%;
+    font-size: 20px;
+    position: relative;
+    top: 21vh;
+    color: rgba(0, 0, 0, 0.641);
+}
+
+#techStack{
+    font-size: 20px;
+    height: 11vh;
+    position: relative;
+    top: 35vh;
+}
+
+.techIcon{
+    height: 70px;
+    margin-left: 3%;
+    display: inline;
+}

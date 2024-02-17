@@ -1,7 +1,7 @@
 import { Button } from "@mui/material";
 import "./globals.css";
 import NavBar from "./NavBar";
-import { inter } from "./ui/fonts";
+import { arefRuqaa, inter } from "./ui/fonts";
 
 export default function RootLayout({ children }) {
   return (
@@ -9,7 +9,7 @@ export default function RootLayout({ children }) {
       <head>
         <title>Nico.Dev</title>
       </head>
-      <body className={inter.className}>
+      <body className={arefRuqaa.className}>
         <NavBar/>
         {children}
       </body>
