@@ -22,6 +22,19 @@
     margin-left: 3%;
     display: inline;
 }
+.navIcon{
+    border-radius: 10px;
+    float: left;
+    margin-left: 1%;
+    margin-bottom: .4%;
+    height: 4vh;
+}
+.navIcon:hover{
+    border-radius: 10px;
+    scale: 1.1;
+    box-shadow: -4px 4px rgba(173, 216, 230, 0.815);
+}
+
 .techIcon:hover{
     border-radius: 10px;
     scale: 1.15;
@@ -35,6 +48,11 @@
     margin-right: auto;
     margin-top: 50vh;
 }
-.pageContainer{
-    margin-top: 80vh;
+.aboutContainer{
+    margin-top: 70vh;
+    height: 40vh;
+}
+.projectContainer{
+    height: 40vh;
+    border:1px solid black;
 }
