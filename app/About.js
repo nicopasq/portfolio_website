@@ -6,6 +6,8 @@ import Projects from "./Projects";
 
 function About(){
     return(
+        <div id="pink">
+
         <Container className="aboutContainer">
             <div className="aboutContent">
                 <u><Typography variant="h3" className={cinzel.className}>
@@ -17,6 +19,7 @@ function About(){
             </div>
             <Projects/>
         </Container>
+        </div>
     )
 }
 

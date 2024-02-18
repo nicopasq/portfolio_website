@@ -1,16 +1,25 @@
+body{
+    background: linear-gradient(
+    rgba(255, 111, 0, 0.727) 10%,
+    rgba(255, 166, 0, 0.727) 40% 70%, 
+    lightblue 90%)
+}
+.main{
+    background-color: white;
+}
 #home{
-    border: 1px solid black;
-    height: 90vh;
+    /* border: 1px solid black; */
+    height: 100vh;
 }
 #homeMainTxt{
     position: relative;
-    top: 15vh;
+    top: 20vh;
 }
 #homeSubTxt{
     width: 45%;
     font-size: 20px;
     position: relative;
-    top: 17vh;
+    top: 22vh;
     color: rgba(0, 0, 0, 0.641);
 }
 
@@ -18,7 +27,7 @@
     font-size: 20px;
     height: 11vh;
     position: relative;
-    top: 25vh;
+    top: 31vh;
 }
 
 .techIcon{
@@ -54,8 +63,7 @@
     margin-top: 50vh;
 }
 .aboutContainer{
-    margin-top: 10vh;
-    border:1px solid black;
+    background-color: white;
     height: 93vh;
 }
 .aboutContent{
@@ -63,7 +71,6 @@
     top: 5vh;
 }
 .projectsContainer{
-    border: 1px solid black;
     float: right;
     width: 45%;
     height: 30%;
@@ -71,17 +78,13 @@
     bottom: 21vh;
 }
 .projectCard{
-    border: 1px solid black;
+    /* border: 1px solid black; */
     height: 7vh;
     margin-bottom: 1%;
-    background-color: red;
-}
-#projectsButton{
-    background-color: red;
 }
 #scrollDownIcon{
     height: 15vh;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 40vh;
+    margin-top: 50vh;
 }

@@ -10,7 +10,7 @@ export default function Home() {
   return (
     <div>
     
-    <Container id="home">
+    <Container id="home" className="main">
       <div id="homeMainTxt">
         <Typography variant="h3" className={cinzel.className}>Hello, I'm Nico Pasquariello</Typography>
         <u><Typography variant="h3" className={cinzel.className}>Fullstack Software Developer.</Typography></u>
