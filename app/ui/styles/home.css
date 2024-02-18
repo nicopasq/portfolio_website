@@ -54,6 +54,7 @@
     margin-top: 50vh;
 }
 .aboutContainer{
+    margin-top: 10vh;
     border:1px solid black;
     height: 93vh;
 }
@@ -61,12 +62,22 @@
     position: relative;
     top: 5vh;
 }
-.projectContainer{
-    margin-top: 60%;
+.projectsContainer{
+    border: 1px solid black;
     float: right;
-    height: 40vh;
-    width: 50%;
-    border:1px solid black;
+    width: 45%;
+    height: 30%;
+    position: relative;
+    bottom: 21vh;
+}
+.projectCard{
+    border: 1px solid black;
+    height: 7vh;
+    margin-bottom: 1%;
+    background-color: red;
+}
+#projectsButton{
+    background-color: red;
 }
 #scrollDownIcon{
     height: 15vh;

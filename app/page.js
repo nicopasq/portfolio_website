@@ -4,7 +4,6 @@ import '@/app/ui/styles/home.css'
 import scrollDown from '@/app/images/scrollDown.png'
 import formatedIcons from "./ui/icons";
 import About from "./About";
-import Projects from "./Projects";
 
 
 export default function Home() {
@@ -25,11 +24,10 @@ export default function Home() {
         {formatedIcons}
       </div>
 
-        {/* 
-        <Projects/> */}
     <img src={scrollDown.src} alt="scrollDown" id="scrollDownIcon"/>
     </Container>
         <About/>
+        
     </div>
   )
 }
