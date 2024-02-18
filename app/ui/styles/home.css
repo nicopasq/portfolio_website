@@ -1,12 +1,16 @@
+#home{
+    border: 1px solid black;
+    height: 90vh;
+}
 #homeMainTxt{
     position: relative;
-    top: 20vh;
+    top: 15vh;
 }
 #homeSubTxt{
     width: 45%;
     font-size: 20px;
     position: relative;
-    top: 21vh;
+    top: 17vh;
     color: rgba(0, 0, 0, 0.641);
 }
 
@@ -14,14 +18,15 @@
     font-size: 20px;
     height: 11vh;
     position: relative;
-    top: 35vh;
+    top: 25vh;
 }
 
 .techIcon{
     height: 70px;
     margin-left: 3%;
     display: inline;
-}
+    background-color: white;
+} 
 .navIcon{
     border-radius: 10px;
     float: left;
@@ -49,10 +54,23 @@
     margin-top: 50vh;
 }
 .aboutContainer{
-    margin-top: 70vh;
-    height: 40vh;
+    border:1px solid black;
+    height: 93vh;
+}
+.aboutContent{
+    position: relative;
+    top: 5vh;
 }
 .projectContainer{
+    margin-top: 60%;
+    float: right;
     height: 40vh;
+    width: 50%;
     border:1px solid black;
+}
+#scrollDownIcon{
+    height: 15vh;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40vh;
 }

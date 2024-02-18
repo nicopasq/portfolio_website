@@ -9,10 +9,12 @@ import Projects from "./Projects";
 
 export default function Home() {
   return (
+    <div>
+    
     <Container id="home">
       <div id="homeMainTxt">
         <Typography variant="h3" className={cinzel.className}>Hello, I'm Nico Pasquariello</Typography>
-        <Typography variant="h3" className={cinzel.className}>Fullstack Software Developer.</Typography>
+        <u><Typography variant="h3" className={cinzel.className}>Fullstack Software Developer.</Typography></u>
       </div>
       <div  id="homeSubTxt">
         <p className={faunaOne.className}>I am a highly motivated and detail-oriented developer with experience in building responsive web applications using React.js and Ruby on Rails APIs.</p>
@@ -23,8 +25,11 @@ export default function Home() {
         {formatedIcons}
       </div>
 
-        <About/>
-        <Projects/>
+        {/* 
+        <Projects/> */}
+    <img src={scrollDown.src} alt="scrollDown" id="scrollDownIcon"/>
     </Container>
+        <About/>
+    </div>
   )
 }

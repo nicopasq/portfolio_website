@@ -6,14 +6,21 @@ import  '@/app/globals.css'
 function About(){
     return(
         <Container className="aboutContainer">
-            <Typography variant="h3" className={cinzel.className}>
-                About
-            </Typography>
-            <Typography variant="h6" className={faunaOne.className} sx={{marginTop:'2%'}}>
-                Hi, I'm Nico Pasquariello. I am a fullstack software developer from Colorado, and recent graduate from Flatirons School.
-                I'm passonate about creating applications that are not only visually pleasing but also highly functional and user-friendly. 
-                I'm always learning and growing as a programmer. Feel free to check out some of my projects below!
-            </Typography>
+            <div className="aboutContent">
+                <u><Typography variant="h3" className={cinzel.className}>
+                    A Little About Me
+                </Typography></u>
+                <Typography variant="h6" className={faunaOne.className} sx={{marginTop:'2%', width:'50%'}}>
+                    I am a fullstack developer from Colorado with a focus on React applications that communicate with an API, and utilize complex state management to create a user friendly experience. I recently graduated from Flatirons Software Engineering program and I'm always up for a challenge and am constantly looking for ways to improve myself as a developer! In my freetime I like to learn new code, enjoy the outdoors, and play music.
+                </Typography>
+            </div>
+
+            <div id="scrollDown">
+                <Typography variant="h4" className={faunaOne.className}>
+                    Projects
+                </Typography>
+                <img src=""/>
+            </div>
         </Container>
     )
 }
