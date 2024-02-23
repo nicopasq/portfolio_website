@@ -1,5 +1,8 @@
+import { Container, Typography } from "@mui/material";
+
 export default function Contact(){
     return (
-        <h1>Contact Page</h1>
+        <Container sx={{border:'1px solid orange', height:'100vh'}}>
+        </Container>
     )
 }

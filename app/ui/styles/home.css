@@ -1,14 +1,15 @@
 body{
-    background: linear-gradient(
+    /* background: linear-gradient(
     rgba(255, 111, 0, 0.727) 10%,
     rgba(255, 166, 0, 0.727) 40% 70%, 
-    lightblue 90%)
-}
-.main{
-    background-color: white;
+    lightblue 90%); */
+    background: linear-gradient(
+        black 30%,
+        rgba(0, 0, 0, 0.844) 55% 70%,
+        rgba(0, 0, 0, 0.836)
+    );
 }
 #home{
-    /* border: 1px solid black; */
     height: 100vh;
 }
 #homeMainTxt{
@@ -20,7 +21,6 @@ body{
     font-size: 20px;
     position: relative;
     top: 22vh;
-    color: rgba(0, 0, 0, 0.641);
 }
 
 #techStack{
@@ -30,12 +30,6 @@ body{
     top: 31vh;
 }
 
-.techIcon{
-    height: 70px;
-    margin-left: 3%;
-    display: inline;
-    background-color: white;
-} 
 .navIcon{
     border-radius: 10px;
     float: left;
@@ -49,21 +43,32 @@ body{
     box-shadow: -4px 4px rgba(173, 216, 230, 0.815);
 }
 
+.techIcon{
+    height: 70px;
+    margin-left: 3%;
+    display: inline;
+    color: black;
+    border-radius: 20%;
+    animation: resetIcon 3s infinite alternate;
+} 
+
 .techIcon:hover{
-    border-radius: 10px;
-    scale: 1.15;
-    box-shadow: -8px 8px lightblue;
+    /* animation: slideIcon 1s infinite alternate; */
+    box-shadow: 0px 0px 30px lightblue;
+}
+@keyframes  resetIcon{
+    from {
+        scale:1;
+        /* transform: translate(0, -1vh); */
+    }
+    to{
+        scale: .77;
+        /* transform: translate(0,0); */
+    }
 }
 
-#scrollDown{
-    height: 9vh;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 50vh;
-}
+
 .aboutContainer{
-    background-color: white;
     height: 93vh;
 }
 .aboutContent{
@@ -82,9 +87,23 @@ body{
     height: 7vh;
     margin-bottom: 1%;
 }
+
 #scrollDownIcon{
-    height: 15vh;
+    height: 5vh;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 50vh;
+    margin-top: 55vh;
+}
+#scrollDownIcon:hover{
+    box-shadow: 0px 0px 30px lightblue;
+    border-radius: 30px;
+    animation: slideIcon 1s infinite alternate;
+}
+@keyframes slideIcon{
+    from {
+        transform: translate(0,0);
+    }
+    to{
+        transform: translate(0, -1vh);
+    }
 }

@@ -1,5 +1,5 @@
 import jsLogo from '@/app/images/jsLogo.png'
-import reactLogo from '@/app/images/reactLogo.jpg'
+import reactLogo from '@/app/images/reactLogo.png'
 import reduxLogo from '@/app/images/reduxLogo.png'
 import muiLogo from '@/app/images/muiLogo.png'
 import rubyLogo from '@/app/images/rubyLogo.png'
