@@ -17,7 +17,7 @@ function Projects(){
                 Project 3
             </Card>
 
-            <p className={cinzel.className} style={{textAlign:'center'}}>See More</p>
+            <p className={cinzel.className} style={{textAlign:'center'}}>See More!!!!!</p>
         </div>
     )
 }
